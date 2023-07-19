@@ -2,6 +2,7 @@
   "name": "my-first-challenge",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ise2005best.github.io/my-first-frontend-mentor-challenge",
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-navigation-menu": "^1.1.3",
