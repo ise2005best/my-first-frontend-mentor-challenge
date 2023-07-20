@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-first-frontend-mentor-challenge/static/css/main.7d254462.css",
-    "main.js": "/my-first-frontend-mentor-challenge/static/js/main.48e86fa6.js",
+    "main.css": "/my-first-frontend-mentor-challenge/static/css/main.26dd522b.css",
+    "main.js": "/my-first-frontend-mentor-challenge/static/js/main.0176eb84.js",
     "static/js/787.508fd4b6.chunk.js": "/my-first-frontend-mentor-challenge/static/js/787.508fd4b6.chunk.js",
     "static/media/image-hero-desktop.png": "/my-first-frontend-mentor-challenge/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/client-databiz.svg": "/my-first-frontend-mentor-challenge/static/media/client-databiz.d1e7955f847e089183caf61eb54feb51.svg",
@@ -9,12 +9,12 @@
     "static/media/client-meet.svg": "/my-first-frontend-mentor-challenge/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
     "static/media/client-audiophile.svg": "/my-first-frontend-mentor-challenge/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
     "index.html": "/my-first-frontend-mentor-challenge/index.html",
-    "main.7d254462.css.map": "/my-first-frontend-mentor-challenge/static/css/main.7d254462.css.map",
-    "main.48e86fa6.js.map": "/my-first-frontend-mentor-challenge/static/js/main.48e86fa6.js.map",
+    "main.26dd522b.css.map": "/my-first-frontend-mentor-challenge/static/css/main.26dd522b.css.map",
+    "main.0176eb84.js.map": "/my-first-frontend-mentor-challenge/static/js/main.0176eb84.js.map",
     "787.508fd4b6.chunk.js.map": "/my-first-frontend-mentor-challenge/static/js/787.508fd4b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d254462.css",
-    "static/js/main.48e86fa6.js"
+    "static/css/main.26dd522b.css",
+    "static/js/main.0176eb84.js"
   ]
 }
