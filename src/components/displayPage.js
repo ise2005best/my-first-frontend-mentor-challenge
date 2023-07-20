@@ -13,7 +13,8 @@ const HomePage = () => {
                     <img src={Picture} alt="home" className='major-picture' />
                 </div>
                 <p className='major-text'>
-                    Make remote work
+                    Make 
+                    remote work
                 </p>
                 <div className='container-2'>
                     <p className='more-text'>
@@ -22,7 +23,7 @@ const HomePage = () => {
                     </p>
 
                     <button className='learn-more-button'>
-                        Learn More
+                        Learn more
                     </button>
                    
                 </div>

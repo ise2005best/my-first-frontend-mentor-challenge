@@ -20,6 +20,9 @@
 
 .NavigationMenuTrigger{
   border: none;
+  box-shadow: none;
+  background-color: white;
+  color: inherit;
 }
 
 .link{
@@ -29,28 +32,40 @@
 .icon{
   margin-right: 10px;
 }
-.features-dropdown, .Company-drop-down, .careers-header, .about-header, .logo{
+.features-dropdown, .Company-drop-down, .careers-header, .about-header{
   position: relative;
-  margin: 30px 30px 0 30px;
+  border: none;
+  margin: 30px 15px 0 15px;
+}
+.about-header, .careers-header, .NavigationMenuTrigger{
+  font-weight: 400;
+}
+.logo{
+  margin: 30px 25px 0 15px;
 }
 .careers-link, .about-link, .login-link, .register-link{
   text-decoration: none;
   color: inherit;
 }
+.sign-up-login{
+  text-align: right;
+  padding-left: 600px;
+  display: block;
+}
 .register-link{
   color: black;
   border: 2px solid #555555;
   border-radius: 15px;
-  padding: 15px;
+  padding: 12px;
+ 
 }
-.sign-up-login{
-  text-align: right;
-  padding-left: 450px;
-}
+
 .login-header, .register-header{
   position: relative;
   float: right;
-  margin: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
   
 }
 
@@ -59,28 +74,30 @@
   background-color: #ffff;
   position: absolute;
   min-width: 160px;
-  border-radius: 20px;
-  padding: 12px 14px;
-  
+  border-radius: 15px;
+  padding: 12px 0px;
+  border-style: ridge;
 }
 .company-drop-down-contents{
-  padding: 10px;
   background-color: #ffff;
   position: absolute;
-  min-width: 160px;
-  border-radius: 20px;
- 
-  padding: 12px 14px;
-  text-align: center;
+  min-width: 140px;
+  border-radius: 15px;
+  padding: 12px 0px;
+  text-align: left;
+  border-style: ridge;
 }
 .to-do, .calender, .reminders, .planning{
   display: grid;
   padding-bottom: 10px;
+  text-align: left;
+  font-size: 14px;
 }
 
 .history, .our-team, .blog{
-  padding: 10px ;
+  padding: 3px ;
   display: grid;
+  font-size: 14px;
 }
 .CaretDown {
   position: relative;
@@ -90,6 +107,7 @@
 }
 [data-state='open'] > .CaretDown {
   transform: rotate(-180deg);
+  
 }
 .major-picture{
   height: 37rem;
@@ -98,12 +116,16 @@
   padding-top: 50px;
 }
 .major-text{
-  font-size: 10vh;
+  font-size: 9vh;
   font-family: 'Jost', sans-serif;
-  width: 490px;
+  width: 400px;
   float: right;
-  padding-right: 200px;
+  margin-right: 300px;
   margin-bottom: 20px;
+  line-height: 4rem;
+  padding-top: 150px;
+  font-weight: 1000;
+  
 }
 .container-2{
   float: right;
@@ -114,16 +136,13 @@
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   width: 400px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
   font-weight: 900;
   margin-bottom: 50px;
 }
 
 .learn-more-button{
   border: none;
-  padding: 20px;
+  padding: 13px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -134,8 +153,9 @@
   background-color: white;
   color: black;
   border: 2px solid #555555;
-  width: 150px;
-  font-weight: 900;
+  width: 170px;
+  font-weight: 700;
+  font-size: 18px;
 }
 .botton-logos{
   padding-top: 50px ;
